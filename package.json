@@ -5,11 +5,10 @@
   "main": "server.js",
   "author": "Scotch",
   "dependencies": {
-    "express": "latest",
-    "request": "latest",
     "cheerio": "latest",
-    "jsdom": "latest",
-    "phantom": "latest",
-    "webpage": "latest"
+    "ejs": "^2.6.1",
+    "express": "latest",
+    "materialize-css": "^1.0.0-rc.2",
+    "request": "latest"
   }
 }

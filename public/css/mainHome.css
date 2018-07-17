@@ -1,0 +1,28 @@
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 23px;
+}
+
+img {
+    width: 150px;
+    height: 150px !important;
+}
+
+.VDT-Scrape-link {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.VDT-Scrape-adress {
+	text-align: center;
+    font-weight: bold;
+}
+
+.hidden {
+	display: none;
+}
