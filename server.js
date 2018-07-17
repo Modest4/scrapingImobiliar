@@ -4,6 +4,8 @@ let request = require('request');
 let cheerio = require('cheerio');
 let app     = express();
 
+const PORT = process.env.PORT || 5000
+
 let link = [
 	{
 		"name": "storia"
@@ -72,6 +74,6 @@ app.get("/storia", (req, res) => {
 	})
 })
 
-app.listen('8081')
-console.log('Magic happens on port 8081');
+app.listen(PORT)
+console.log('Magic happens on port 8082');
 exports = module.exports = app;
